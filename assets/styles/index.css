@@ -1,0 +1,98 @@
+
+
+/* <!-- ########################################### HEADER ############################################## --> */
+
+.header__container{
+    max-width: 1208px;
+    margin: 0 auto;
+    list-style: none;
+    font-family: "Roboto";
+    
+}
+.header__content{
+    display: flex;
+   
+    height: 72px;
+    background: #FFFFFF;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+/* <!-- ########################################### LOGO ############################################## --> */
+
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+.logo__text{
+    font-size: 3mm;
+    font-weight: 900;
+    margin-left: 14px;
+    color:  #414141;
+
+}
+/* <!-- ########################################### BOX__CATEGORI ############################################## --> */
+.box__categori{
+    display: flex;
+    background: #70C05B;
+    width: 140px;
+    height: 40px;
+    border-radius: 4px;
+    align-items: center;
+
+
+}
+
+.box__categori--text{
+color: #FFFFFF;
+    padding-left: 30px;
+}
+.box__categori--icon{
+    padding-left: 5px;
+}
+/* <!-- ########################################### BOX__SEARCH--PRODUCKT ############################################## --> */
+.box__search--produckt{
+    padding-left: 16px;
+}
+.box__search__button{
+    width: 375px;
+    height: 40px;
+    border-radius: 4px;
+    padding-right: 16px;
+}
+/* <!-- ########################################### ICON_ACTON ############################################## --> */
+
+.icon__action{
+    display: flex;
+    width: 274px;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon__heart{
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.icon__text{
+    font-size: 3mm;
+
+}
+.icon__heart--img{
+    justify-content: center;
+    align-items: center;
+}
+/* <!-- ########################################### PROFILE ############################################## --> */
+
+.box__profile{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    justify-content: space-between;
+}

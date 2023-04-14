@@ -20,3 +20,6 @@
 
 @import url(./assets/styles/product.css);
 
+body, li, ul {
+    margin: 0;
+}
